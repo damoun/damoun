@@ -62,7 +62,7 @@ const psTime = formatDistance(new Date(2020, 12, 14), today, {
 // Today's weather
 // 249758 - Amsterdam, NL
 // 3510001 - Ijburg, NL
-const locationKey = '3510001'
+const locationKey = '249758'
 let url = `forecasts/v1/daily/1day/${locationKey}?apikey=${WEATHER_API_KEY}`
 
 got(url, { prefixUrl: WEATHER_DOMAIN })
