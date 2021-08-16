@@ -250,7 +250,7 @@
 
   <!-- Hi, I'm Jason -->
   <g transform="translate(10, 0)" class="msg-1 bubble">
-    <rect width="133" height="42" rx="18.0355" />
+    <rect width="150" height="42" rx="18.0355" />
     <text x="15" y="27">Hi, I'm Damien</text>
   </g>
 
@@ -274,8 +274,8 @@
 
   <!-- From Columbus... -->
   <g transform="translate(10, 48)" class="msg-2">
-    <rect width="439" height="66.1302" rx="18.0355" class="bubble" />
-    <text x="15" y="27">I live in Amsterdam where it’s supposed to be</text>
+    <rect width="430" height="66.1302" rx="18.0355" class="bubble" />
+    <text x="15" y="27">I live in Amsterdam, NL where it’s supposed to be</text>
     <text x="15" y="50">{degC}° C ({degF}° F) and <tspan class="emoji">{weatherEmoji}</tspan> today.</text>
   </g>
 
@@ -299,7 +299,7 @@
 
   <!-- Work ... -->
   <g transform="translate(10, 120)" class="msg-3">
-    <rect width="460" height="66.1302" rx="18.0355" class="bubble" />
+    <rect width="480" height="66.1302" rx="18.0355" class="bubble" />
     <text x="15" y="27">I’m a Site Reliability Engineer. I used to work at Dalenys,</text>
     <text x="15" y="50">but I’ve been at Veepee for about {psTime} now.</text>
   </g>
@@ -324,7 +324,7 @@
 
   <!-- Twitter -->
   <g transform="translate(10, 192)" class="msg-4">
-    <rect width="513" height="42" rx="18.0355" class="bubble" />
+    <rect width="470" height="42" rx="18.0355" class="bubble" />
     <text x="15" y="27">
       You can find me on Twitch at
       <a xlink:href="https://twitch.tv/dam0un">https://twitch.tv/dam0un</a>
