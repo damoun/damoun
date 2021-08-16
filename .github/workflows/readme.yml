@@ -23,7 +23,7 @@ jobs:
         run: node build-svg.js
 
       - name: Commit changes
-        uses: EndBug/add-and-commit@v7.2.1
+        uses: EndBug/add-and-commit@v7
         with:
           author_name: Damien PLÉNARD
           author_email: damien@plenard.me
