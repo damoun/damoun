@@ -301,7 +301,7 @@
   <g transform="translate(10, 120)" class="msg-3">
     <rect width="480" height="66.1302" rx="18.0355" class="bubble" />
     <text x="15" y="27">I’m a Site Reliability Engineer. I used to work at Dalenys,</text>
-    <text x="15" y="50">but I’ve been at Veepee for about {psTime} now.</text>
+    <text x="15" y="50">but I’ve been at Veepee for about {vpTime} now.</text>
   </g>
 
   <!-- typing 4 -->

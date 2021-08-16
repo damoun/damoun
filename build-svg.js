@@ -55,7 +55,7 @@ const todayDay = new Intl.DateTimeFormat('en-US', { weekday: 'long' }).format(
   today
 )
 
-const psTime = formatDistance(new Date(2018, 01, 03), today, {
+const vpTime = formatDistance(new Date(2018, 01, 03), today, {
   addSuffix: false,
 })
 
@@ -82,7 +82,7 @@ got(url, { prefixUrl: WEATHER_DOMAIN })
       data = data.replace('{degF}', degF)
       data = data.replace('{degC}', degC)
       data = data.replace('{weatherEmoji}', emojis[icon])
-      data = data.replace('{psTime}', psTime)
+      data = data.replace('{vpTime}', vpTime)
       data = data.replace('{todayDay}', todayDay)
       data = data.replace('{dayBubbleWidth}', dayBubbleWidths[todayDay])
 
