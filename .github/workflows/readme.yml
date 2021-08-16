@@ -23,11 +23,9 @@ jobs:
         run: node build-svg.js
 
       - name: Commit changes
-        uses: EndBug/add-and-commit@v4
+        uses: EndBug/add-and-commit@v7.2.1
         with:
           author_name: Damien PLÉNARD
           author_email: damien@plenard.me
           message: "Auto updating my readme"
           add: "*.svg"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
