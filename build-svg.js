@@ -82,7 +82,7 @@ got(url, { prefixUrl: WEATHER_DOMAIN })
       data = data.replace('{degF}', degF)
       data = data.replace('{degC}', degC)
       data = data.replace('{weatherEmoji}', emojis[icon])
-      data = data.replace('{vpTime}', vpTime)
+      data = data.replace('{mollieTime}', mollieTime)
       data = data.replace('{todayDay}', todayDay)
       data = data.replace('{dayBubbleWidth}', dayBubbleWidths[todayDay])
 
