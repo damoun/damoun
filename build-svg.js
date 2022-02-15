@@ -55,7 +55,7 @@ const todayDay = new Intl.DateTimeFormat('en-US', { weekday: 'long' }).format(
   today
 )
 
-const vpTime = formatDistance(new Date(2018, 01, 03), today, {
+const mollieTime = formatDistance(new Date(2022, 02, 01), today, {
   addSuffix: false,
 })
 
