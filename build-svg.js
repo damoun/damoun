@@ -1,9 +1,9 @@
 const WEATHER_API_KEY = process.env.WEATHER_API_KEY
 
-let fs = require('fs')
-let got = require('got')
-let qty = require('js-quantities')
-let formatDistance = require('date-fns/formatDistance')
+import fs from 'fs'
+import got from 'got';
+import qty from 'js-quantities'
+import formatDistance from 'date-fns/formatDistance/index.js'
 
 let WEATHER_DOMAIN = 'http://dataservice.accuweather.com'
 
@@ -39,7 +39,7 @@ const emojis = {
 }
 
 // Cheap, janky way to have variable bubble width
-dayBubbleWidths = {
+const dayBubbleWidths = {
   Monday: 235,
   Tuesday: 235,
   Wednesday: 260,
@@ -56,7 +56,7 @@ const todayDay = new Intl.DateTimeFormat('en-US', { weekday: 'long' }).format(
 )
 
 // February 1st 2022
-const mollieTime = formatDistance(new Date(2022, 01, 01), today, {
+const mollieTime = formatDistance(new Date(2022, 1, 1), today, {
   addSuffix: false,
 })
 
