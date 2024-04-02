@@ -55,8 +55,8 @@ const todayDay = new Intl.DateTimeFormat('en-US', { weekday: 'long' }).format(
   today
 )
 
-// February 1st 2022
-const mollieTime = formatDistance(new Date(2022, 1, 1), today, {
+// April 2nd 2024
+const camundaTime = formatDistance(new Date(2024, 4, 2), today, {
   addSuffix: false,
 })
 
@@ -83,7 +83,7 @@ got(url, { prefixUrl: WEATHER_DOMAIN })
       data = data.replace('{degF}', degF)
       data = data.replace('{degC}', degC)
       data = data.replace('{weatherEmoji}', emojis[icon])
-      data = data.replace('{mollieTime}', mollieTime)
+      data = data.replace('{camundaTime}', camundaTime)
       data = data.replace('{todayDay}', todayDay)
       data = data.replace('{dayBubbleWidth}', dayBubbleWidths[todayDay])
 
