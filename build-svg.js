@@ -56,7 +56,7 @@ const todayDay = new Intl.DateTimeFormat('en-US', { weekday: 'long' }).format(
 )
 
 // April 2nd 2024
-const camundaTime = formatDistance(new Date(2024, 4, 2), today, {
+const camundaTime = formatDistance(new Date(2024, 3, 2), today, {
   addSuffix: false,
 })
 
