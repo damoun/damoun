@@ -56,7 +56,7 @@ const todayDay = new Intl.DateTimeFormat('en-US', { weekday: 'long' }).format(
 )
 
 // November 1nd 2025
-const startDate = formatDistance(new Date(2025, 11, 1), today, {
+const period = formatDistance(new Date(2025, 11, 1), today, {
   addSuffix: false,
 })
 
@@ -83,7 +83,7 @@ got(url, { prefixUrl: WEATHER_DOMAIN })
       data = data.replace('{degF}', degF)
       data = data.replace('{degC}', degC)
       data = data.replace('{weatherEmoji}', emojis[icon])
-      data = data.replace('{startDate}', startDate)
+      data = data.replace('{period}', period)
       data = data.replace('{todayDay}', todayDay)
       data = data.replace('{dayBubbleWidth}', dayBubbleWidths[todayDay])
 
